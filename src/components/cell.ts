@@ -13,3 +13,5 @@ export class Cell {
     this.flagged = !this.flagged;
   }
 }
+
+export default Cell;

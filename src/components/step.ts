@@ -1,4 +1,4 @@
-import { Cell } from './Cell';
+import Cell from './cell';
 
 export class Step extends Cell {
   mines: number;
@@ -8,3 +8,5 @@ export class Step extends Cell {
     this.mines = mines;
   }
 }
+
+export default Step;

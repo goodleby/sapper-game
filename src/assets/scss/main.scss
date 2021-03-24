@@ -15,29 +15,30 @@ body {
   overflow: hidden;
   overscroll-behavior-y: contain;
 }
-.info {
-  color: #ff2;
-}
-.success {
-  color: #2f2;
-}
-.danger {
-  color: #f22;
-}
-.messages {
-  font-size: 22px;
-  line-height: 1;
-  min-height: 1em;
-  margin-bottom: 12px;
-}
-.score {
-  font-size: 18px;
-  margin-bottom: 12px;
-}
 #root {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 80vh;
+}
+.messages {
+  font-size: 22px;
+  line-height: 1;
+  min-height: 4em;
+  margin-bottom: 12px;
+}
+.message {
+  text-align: center;
+  padding: 0 16px;
+  margin-bottom: 6px;
+  &.info {
+    color: #ff2;
+  }
+  &.success {
+    color: #2f2;
+  }
+  &.danger {
+    color: #f22;
+  }
 }
